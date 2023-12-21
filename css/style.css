@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+body {
+  padding-top: 80px;
+  /* height: 5000px; */
+}
+button:focus {
+  box-shadow: none !important;
+  outline: none;
+}
+
+/* header ------------------------------------- */
+header .logo img {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+}
+
+.product h1 {
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.product img {
+  width: 100%;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+/* footer ------------------------------------- */
+.product .desc {
+  position: absolute;
+  top: 44px;
+  left: 12px;
+}
+.product .desc span {
+  display: block;
+  margin-bottom: 7px;
+  padding: 7px;
+}
+.tamara img {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+}
+.product-rait svg {
+  margin: 0 5px;
+  color: #ac9000;
+  font-size: 20px;
+}
+.show-text {
+  display: block !important;
+}
+.footer .social-media li {
+  margin: 0 5px 0;
+  display: flex;
+}
+.footer .social-media li a {
+  color: #343a40;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 5px;
+}
+.footer-icon {
+  z-index: 102;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  line-height: 3;
+  box-shadow: 0 -0.5px 0 rgb(0 0 0 / 30%);
+}
+.footer-icon li a {
+  color: rgb(168, 166, 166);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.footer-icon a.active {
+  color: var(--main-color);
+}
+.footer-icon a:hover {
+  color: var(--main-color);
+}
+
+.phone-fixed .whatsapp {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 5px 0;
+}
+.phone-fixed svg {
+  color: #fff;
+  font-size: 35px;
+}
+.phone-fixed .whatsapp {
+  background-color: #10ab16;
+}
+
+.phone-fixed {
+  position: fixed;
+  right: 20px;
+  z-index: 55;
+  bottom: 130px;
+}
+.cart {
+  position: fixed;
+  bottom: 79px;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+}
+
+.accordion-button::after {
+  position: absolute;
+  left: 0;
+}
+
+.accordion-button:not(.collapsed) {
+  background: unset;
+  box-shadow: none;
+  border-color: none;
+  outline: none !important;
+}
+.accordion-button:focus {
+  outline: none !important;
+  border-color: none !important;
+}
